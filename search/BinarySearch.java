@@ -15,7 +15,7 @@ class BinarySearch{
     int mid;
     while(left<=right) {
         mid =(left+right)/2;
-        if(nums[mid]    ==target){
+        if(nums[mid] ==target){
             return mid;
         }
         else if(nums[mid]<target){
@@ -28,4 +28,4 @@ class BinarySearch{
         return -1;
     }
 }
-//linear Search time complexity  best = o(1) worst=o(n)  avg=o(n) ------------space complexity o(n)
+//Binary Search time complexity  best = o(1) worst=O(log n)  avg=O(log n) ------------space complexity o(1)
