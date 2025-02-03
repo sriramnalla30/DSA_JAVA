@@ -6,7 +6,6 @@ class Node{
         this.next=null;
     }
 }
-
 class Main{
     Node head;
     public void addNode(int val){
@@ -38,7 +37,7 @@ class Main{
         current.next=null;
     }
     public void addPrior(int val,int index){
-        
+
     }
     public void printlist(){
         Node current=head;
