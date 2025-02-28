@@ -33,9 +33,9 @@ class Levels {
 
     // Method to calculate the max depth of the tree
     public int maxDepth(TreeNode root) {
-        if (root == null) {
-            return 0;
-        }
+            if (root == null) {
+                return 0;
+            }
 
         Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
